@@ -1,2 +1,2 @@
 # slam_assignment
-Assignment Repo
+The Repo containes the results and explanantion of the 3D SLAM assignment.
