@@ -1,4 +1,3 @@
-[I'm an inline-style link](https://www.google.com)
 
 # SLAM Assignment
 The Repo containes the results and explanantion of the 3D SLAM assignment.
@@ -7,11 +6,11 @@ The Repo containes the results and explanantion of the 3D SLAM assignment.
 <h3>Algorithm Name</h3>RTAB Map ( ROS 2 Version)
 <h3>Dataset Used </h3>The r2b dataset 2023 is a collection of sequences stored in rosbags, a ROS 2 native format used for message data including time synchronized sensor captures from a robot. The data is collected from an Nvidia Iassac Simulator.
 
-Link : [r2b dataset 2023](https://www.google.com](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/resources/r2bdataset2023)https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/resources/r2bdataset2023)
+Link : [r2b dataset 2023](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/resources/r2bdataset2023)
 
 # Algorithm Explanation <br>
 A short decription about the algorithm and its working is added in the documentation folder.
-Link: [documentation]([https://www.google.com](/docmentation/RTAB_MAP.pdf))
+Link: Link : [Documentation](docmentation/RTAB_MAP.pdf)
 
 
 # Algorithm Results <br>
