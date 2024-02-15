@@ -4,6 +4,18 @@ The Repo containes the results and explanantion of the 3D SLAM assignment.
 
 # Algorithm Details <br>
 <h3>Algorithm Name</h3>RTAB Map ( ROS 2 Version)
+
+## Algorithm installation
+`sudo apt install ros-humble-rtabmap*`
+
+to run the algorithm with icpodometry and stereo camera input:<br>
+`ros2 launch rtabmap_launch rtabmap.launch.py stereo:=true left_image_topic:=/hawk_0_left_rgb_image right_image_topic:=/hawk_0_right_rgb_image  left_camera_info_topic:=/hawk_0_left_rgb_camera_info right_camera_info_topic:=/hawk_0_right_rgb_camera_info rtabmap_args:="-d" subscribe_scan_cloud:=True scan_cloud_topic:=/pandar_xt_32_0_lidar icp_odometry:=true approx_sync:=true
+`
+
+To play the rosbag file:<br>
+`ros2 bag play ../r2b_lounge --qos-profile-overrides-path reliability_override.yaml  -r 0.25
+an additional QoS profile is provided in playing the bag filr to solve the QoS issue of the original bag file.
+`
 <h3>Dataset Used </h3>The r2b dataset 2023 is a collection of sequences stored in rosbags, a ROS 2 native format used for message data including time synchronized sensor captures from a robot. The data is collected from an Nvidia Iassac Simulator.
 
 Link : [r2b dataset 2023](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/resources/r2bdataset2023)
