@@ -19,3 +19,6 @@ Link: Link : [Documentation](docmentation/RTAB_MAP.pdf)
 
 # Algorithm Result Video <br>
 [![Video](https://img.youtube.com/vi/Or3I5H5vSzQ/0.jpg)](https://www.youtube.com/watch?v=Or3I5H5vSzQ)
+#
+### Issues faced <br>
+There were not enough ROS2 datasets with 3d Lidar and Stero camera. ( Either too large to download an process or only ROS 1 version is available)
