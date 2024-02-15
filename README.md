@@ -32,5 +32,12 @@ Link: Link : [Documentation](docmentation/RTAB_MAP.pdf)
 # Algorithm Result Video <br>
 [![Video](https://img.youtube.com/vi/Or3I5H5vSzQ/0.jpg)](https://www.youtube.com/watch?v=Or3I5H5vSzQ)
 #
-### Issues faced <br>
-There were not enough ROS2 datasets with 3d Lidar and Stero camera. ( Either too large to download an process or only ROS 1 version is available)
+
+# Aleternative Approach
+There could be an alternate implemetation where the 3D lidar could be used as the primary sensor and stereo camera as the secondary sensor. 
+* 3D lidar can generate point cloud with more density and coverage than camera
+* Comparitivly lesser computaion requirement ( considering the 360 degree FoV)
+* Faster scan matching
+
+An approach would be to use the sensors as shown below( high level architecture ) to generate odometry and use it to geerate the map.
+![Architecture](data/odomfusdion.jpeg)
